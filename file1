@@ -6,8 +6,8 @@ int main()
 
     char str[100];
     char rev[100];
-    char *sptr = str; // sptr stores the base address of the str
-    char *rptr = rev; // rptr stores the base address of the reverse
+    char *sptr = &str; // sptr stores the base address of the str
+    char *rptr = &rev; // rptr stores the base address of the reverse
 
     int i = -1;
 
